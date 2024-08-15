@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <img src="/image/log.png" alt="logo Jhon Morales" class="logo">
+        <h1 class="bienvenida">Bienvenidos al Encriptador</h1>
+    </header>
+    <main>
+        <section class="caja1">
+            <textarea class="text-area" cols="30" rows="10" placeholder="Ingresa el texto aqui" ></textarea>
+            <div>
+                <h6 class="informacion"> <img src="/image/esclamacion.png" alt="logo esclamacion">Solo letras minúsculas y sin acento</h6>
+            </div>
+            <div class="botones">
+                <button class="btn-encriptar" onclick="btnEncriptar()">Encriptar</button>
+                <button class="btn-desencriptar" onclick="btnDesencriptar()">Desencriptar</button>
+            </div>
+        </section>
+        <section class="caja2">
+            <textarea class="mensaje" cols="27" rows="15"></textarea>
+            
+           <div class="avisos">
+            <img class="ojos" src="/image/ojos.gif" alt="ojos">
+            <h2 class="text">No se encontro ningun mensaje</h2>
+            <p class="msj">Ingresa el texto que desea encriptar o desencriptar</p>
+            </div>
+            <button class="copiar" onclick="copiar()">Copiar</button>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p class="des"> Desarrollado por Jhon F Morales</p>
+       <a class="github" href="https://github.com/JhonF06"> <img class="github" src="/image/icons8-github-100.png" alt="logo-git-hub"> </a> 
+     </footer>
+
+<script src="app.js"></script>
+    
+</body>
+</html>

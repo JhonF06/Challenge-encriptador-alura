@@ -1,0 +1,238 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Krona+One&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nabla&family=Reem+Kufi+Ink&display=swap');
+
+*{
+    padding: 0;
+    margin:0;
+    font-family: 'Inter';
+    font-weight: 400;
+    
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    background-image: url(/image/3492868.gif);
+}
+
+.header{
+    margin: 1%;
+    display: flex;
+    gap: 400px;   
+}
+
+.bienvenida{
+    margin-top: 30px;
+    font-family: "Reem Kufi Ink", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #ca0b05;
+    font-size: 2.75rem;
+
+}
+
+.logo{
+    padding-top: 9px;
+    margin-left: 9px;
+    width: 5%;
+    border-radius: 24px;
+}
+
+main{
+    width: 95%;
+    display: flex;
+    margin: 0% 5%;
+    gap: 5%
+}
+.caja1{
+    width: 30%;
+}
+
+
+.text-area{
+    width: 80%;
+    font-size: 2rem;
+    border: none;
+    color: #e3e5e7;
+    margin-top: 90px;
+    text-transform: lowercase;
+    background-color: rgba(122, 122, 122, 0.329);
+    resize: none;
+}
+::placeholder { color: #e6e8eb;}
+    .text-area:focus {
+        outline: none;
+    }
+
+.caja2{
+    background: rgba(122, 122, 122, 0.329);
+    width: 30%;
+    padding: 8%;
+    border-radius: 22px;
+
+}
+
+.mensaje{ 
+    display: none;
+    background: rgba(122, 122, 122, 0.329);
+    border: none;
+    border-radius: 24px;
+    color: #f0f1f3;
+    font-size: 2rem;
+    resize: none;
+    
+}
+.mensaje:focus {
+    outline: none;
+}
+
+.informacion{
+    font-size: 1.5rem;
+    color: #e3e5e793;
+}
+
+.botones{
+    display: flex;
+    margin-top: 18px;
+    width: 100%;
+}
+
+.btn-desencriptar {
+    background-color: #b8191998;
+    border: 1px solid  #98a031;
+    border-radius: 24px;
+    color: #ebecee;
+    cursor: pointer;
+    height: 67px;
+    margin-left: 30px;
+    width: 50%;
+    font-size: 2rem;
+}
+
+.btn-encriptar {
+    background-color: #c45b06ab;
+    border: 1px solid  #ebe6e6;
+    border-radius: 24px;
+    color: rgb(3, 0, 0);
+    cursor: pointer;
+    height: 67px;
+    width: 50%;
+    font-size: 2rem;
+}
+
+
+
+.avisos{
+    font-size: 1.25rem;
+    color: #ebe5e5;
+    text-align: center;
+}
+
+
+
+.msj{
+    padding: 5%;
+    font-size: 0.75rem;
+}
+
+
+.copiar{
+    display: none;
+    border: 1px solid #000205;
+    border-radius: 24px;
+    color: #d3d0d0;
+    cursor: pointer;
+    height: 67px;
+    margin-left: 10%;
+    margin-top: 5%;
+    width: 70%;
+    background-color: #ca0b05;
+    font-size: 2rem;
+}
+
+.copiar:hover {
+    background-color: #179BAE;
+    color: white;
+}
+
+.footer{
+    
+    display: flex;
+    background-color: #e62a2ad5;
+    color: #cec9c9f1;
+    padding: 1%;
+    font-size: 2rem;
+    text-align: center;
+}
+
+.des{
+    margin: 0% 35%;
+}
+
+.github{
+    margin: -1.5% 70%;
+    position: absolute;
+}
+
+@media (max-width: 1250px){
+
+    body {
+        height: 100dvh;
+    }
+
+    .logo{
+        margin: 2rem;
+        width: 10%;
+    }
+
+    .header{
+        margin: 1%;
+        gap: 100px
+    }
+
+    main{
+        gap: 2rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+    
+    .caja1{
+        max-height: 40%;
+        margin-top: 10%;
+        width: 100%;
+        margin-bottom: 0;
+    }
+
+    .ojos{
+        display: none;
+    }
+
+    .caja2{
+        max-height: 30%;
+        margin-top: 10%;
+        width:70%;
+        margin-bottom: 0;
+
+
+    }
+}
+
+@media (max-width: 550px){
+
+    .logo {
+        margin: 10%;
+        width: 10%;
+    }
+
+    .header{
+        margin: 1%;
+        display: flex;
+        gap: 90px;
+    }
+    
+    .bienvenida{
+        font-size: 1.5rem;
+    }
+}
+   
+
